@@ -15,7 +15,7 @@ const ForgotPassword = () => {
                 .required('Email is required'),
         }),
         onSubmit: values => {
-            alert(JSON.stringify(values, null, 2));
+            alert('Email Sent :\n' + JSON.stringify(values, null, 2));
         },
     });
     return (
