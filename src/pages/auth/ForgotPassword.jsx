@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import LoginPage from './LoginPage';
 import * as Yup from 'yup';
 
-const ForgotPassword = () => {
+const ForgotPasswordPage = () => {
     const formik = useFormik({
         initialValues: {
             email: '',
@@ -63,4 +63,4 @@ const ForgotPassword = () => {
     );
 };
 
-export default ForgotPassword;
+export default ForgotPasswordPage;

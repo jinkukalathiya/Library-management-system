@@ -2,7 +2,7 @@ import React from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 
-const ChangePassword = () => {
+const ChangePasswordPage = () => {
     const formik = useFormik({
         initialValues: {
             currentPassword: '',
@@ -107,4 +107,4 @@ const ChangePassword = () => {
         </div>
     );
 };
-export default ChangePassword;
+export default ChangePasswordPage;

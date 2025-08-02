@@ -1,9 +1,8 @@
-import React from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { Link } from 'react-router-dom';
 
-const Register = () => {
+const RegisterPage = () => {
     const formik = useFormik({
         initialValues: {
             firstName: '',
@@ -172,4 +171,4 @@ const Register = () => {
     );
 };
 
-export default Register;
+export default RegisterPage;

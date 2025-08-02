@@ -1,17 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import LoginPage from './pages/auth/LoginPage'
-import Register from './pages/auth/Register'
+import Register from './pages/auth/RegisterPage'
 import ForgotPassword from './pages/auth/forgotPassword'
 import ChangePassword from './pages/auth/ChangePassword'
+import DashboardPage from './pages/dashboard/dashboard'
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
+          <Route path='/' element={<DashboardPage/>}/>
           <Route path='/login' element={<LoginPage />} />
           <Route path='/register' element={<Register />} />
           <Route path='/change-password' element={<ChangePassword />} />
