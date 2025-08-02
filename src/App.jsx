@@ -2,16 +2,16 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import LoginPage from './pages/auth/LoginPage'
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/login' />
+          <Route path='/login' element={<LoginPage />} />
         </Routes>
       </BrowserRouter>
-      <h1>Helloooooo</h1>
     </>
   )
 }
