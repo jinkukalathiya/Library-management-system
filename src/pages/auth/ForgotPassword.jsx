@@ -21,7 +21,7 @@ const ForgotPassword = () => {
     return (
         <div className='dark:bg-gray-900 h-screen flex items-center'>
             <div className="container mx-auto flex flex-col justify-center items-center">
-                <div className='border border-gray-600 w-full max-w-md rounded-xl p-8'>
+                <div className='border border-gray-600 w-full min-xl:w-5/12 rounded-xl p-8'>
                     <h1 className='text-3xl font-bold text-white text-center mb-8'>Forgot Password?</h1>
 
                     <form onSubmit={formik.handleSubmit} className="space-y-6">

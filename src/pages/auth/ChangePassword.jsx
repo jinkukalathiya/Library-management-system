@@ -27,10 +27,8 @@ const ChangePassword = () => {
     return (
         <div className='dark:bg-gray-900 h-screen flex items-center'>
             <div className="container mx-auto flex flex-col justify-center items-center">
-                <div className='border-1 border-gray-600 min-xl:w-4/12 rounded-xl p-12'>
-                    <div className='py-14'>
-                        <h1 className='text-3xl font-bold text-white text-center'>Forgot Password ?</h1>
-                    </div>
+                <div className='border border-gray-600 w-full min-xl:w-5/12 rounded-xl p-8'>
+                    <h1 className="text-3xl font-bold text-white text-center mb-8">Change Password ?</h1>
                     <form
                         onSubmit={formik.handleSubmit}
                         className="flex flex-col w-full justify-center items-center"
