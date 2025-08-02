@@ -96,6 +96,11 @@ const ChangePassword = () => {
                         >
                             Change Password
                         </button>
+                        <div className="text-center mt-4">
+                            <Link to="/login" className="text-blue-400 hover:underline">
+                                Back To Login
+                            </Link>
+                        </div>
                     </form>
                 </div>
             </div>
